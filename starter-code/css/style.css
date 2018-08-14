@@ -1,9 +1,17 @@
-.wrapper, .wrapper2 {
+.wrapper, .wrapper2, .add-item-bloc {
   width: 80%;
   margin: 100px auto 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.add-item-bloc {
+  justify-content: start;
+}
+
+.add-item-bloc > div {
+  margin-right: 30px;
 }
 
 input {

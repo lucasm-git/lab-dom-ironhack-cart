@@ -10,39 +10,56 @@
   </head>
   
   <body>
-    <div class="wrapper">
-      <div><span>IronBubble-head</span></div>
+    <div class="items-wrapper">
+      <div class="wrapper">
+        <div><span>IronBubble-head</span></div>
 
-      <div>$<span class="unit-price" id="unit-price">25</span></div>
+        <div>$<span class="unit-price" id="unit-price">25</span></div>
 
-      <div>
-        <label for="units" class="quantity">QTY</label>
-        <input class="unit-quantity" id="units" placeholder="Buy ALL the things!">
-      </div>
-
-      <div>$<span class="total-price" id="total-price">0.00</span></div>
-
-      <div>
-        <button class="btn btn-delete">Delete</button>
-      </div>
-    </div>
-
-    <div class="wrapper2">
-        <div><span>Iron shirt</span></div>
-  
-        <div>$<span class="unit-price" id="unit-price2">15</span></div>
-  
         <div>
           <label for="units" class="quantity">QTY</label>
-          <input class="unit-quantity" id="units2" placeholder="Buy ALL the things!">
+          <input class="unit-quantity" id="units" placeholder="Buy ALL the things!">
         </div>
-  
-        <div>$<span class="total-price" id="total-price2">0.00</span></div>
-  
+
+        <div>$<span class="total-price" id="total-price">0.00</span></div>
+
         <div>
           <button class="btn btn-delete">Delete</button>
         </div>
       </div>
+
+      <div class="wrapper2">
+          <div><span>Iron shirt</span></div>
+    
+          <div>$<span class="unit-price" id="unit-price2">15</span></div>
+    
+          <div>
+            <label for="units" class="quantity">QTY</label>
+            <input class="unit-quantity" id="units2" placeholder="Buy ALL the things!">
+          </div>
+    
+          <div>$<span class="total-price" id="total-price2">0.00</span></div>
+    
+          <div>
+            <button class="btn btn-delete">Delete</button>
+          </div>
+      </div>
+    </div>
+
+    <div class="add-item-bloc">
+
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+      </div>
+
+      <div>
+        <label for="price">Price</label>
+        <input type="text" id="price">
+      </div>
+
+      <button class="create-button">Create</button>
+    </div>
   
     <div class="green-button-position">
       <button class="btn btn-success">Calculate prices</button>
